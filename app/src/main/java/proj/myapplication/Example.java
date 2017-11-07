@@ -22,3 +22,4 @@ public class Example {
         this.contacts = contacts;
     }
 }
+
