@@ -5,8 +5,13 @@ add these dependencies
  compile 'com.squareup.retrofit2:retrofit:2.0.2'
  compile 'com.squareup.retrofit2:converter-gson:2.0.2'
 
+
+
 Json response to gson
-->copy the json and paste in the below url 
+
+https://api.androidhive.info/contacts/
+
+->copy the json and paste in the below url
 http://www.jsonschema2pojo.org/
 copy and create all the classes from the above url
 
