@@ -1,0 +1,45 @@
+
+add these dependencies
+
+ compile 'com.google.code.gson:gson:2.6.2'
+ compile 'com.squareup.retrofit2:retrofit:2.0.2'
+ compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+
+Json response to gson
+->copy the json and paste in the below url 
+http://www.jsonschema2pojo.org/
+copy and create all the classes from the above url
+
+in retrofit the json url is divided in two parts 
+base and end points
+
+Example
+https://api.androidhive.info/contacts/
+
+This is base url that is upto domain:-https://api.androidhive.info
+
+
+this is the end point:-/contacts
+
+Create a class to initialize Retrofit with base url
+ApiClient.class
+
+
+
+Create interface for the second part of url that are the endpoints
+MyInterface
+where you can define  HTTP methods: @GET, @POST, @PUT, @DELETE, @PATCH or @HEAD.
+
+In interface you just need to declare the method implementation would be done in the class where it is used
+the json response would be wrapped in Call object
+
+
+
+
+
+
+
+   
+
+
+
